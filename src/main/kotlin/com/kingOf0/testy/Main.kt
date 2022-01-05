@@ -2,7 +2,7 @@ package com.kingOf0.testy
 
 fun main() {
 
-    val stack = FixedArray<Int>(5)
+    val stack = FixedArrayList<Int>(5)
     stack.add(5)
     stack.add(3)
     stack.add(10)
